@@ -1,0 +1,38 @@
+Welcome to Alejandro Sherman's Feature Selection Algorithm.
+
+Please enter total number of features: 4
+Type the number of the algorithm you want to run.
+        1       Forward Selection
+        2       Backwards Elimination
+        3       Alejandro's Special Algorithm
+
+1
+
+Using no features and "random" evaluation, I get an accuracy of 15.0%
+
+Beginning search.
+
+Using feature(s) [1] accuracy is 17.5%
+Using feature(s) [2] accuracy is 43.9%
+Using feature(s) [3] accuracy is 16.6%
+Using feature(s) [4] accuracy is 38.8%
+
+Feature set [2] was best, accuracy is 43.9%
+
+Using feature(s) [2, 1] accuracy is 19.7%
+Using feature(s) [2, 3] accuracy is 51.3%
+Using feature(s) [2, 4] accuracy is 6.3%
+
+Feature set [2, 3] was best, accuracy is 51.3%
+
+Using feature(s) [2, 3, 1] accuracy is 88.1%
+Using feature(s) [2, 3, 4] accuracy is 97.8%
+
+Feature set [2, 3, 4] was best, accuracy is 97.8%
+
+Using feature(s) [2, 3, 4, 1] accuracy is 66.7%
+
+(Warning, Accuracy has decreased! Continuing search in case of local maxima)
+Feature set [2, 3, 4, 1] was best, accuracy is 66.7%
+
+Finished search!! The best feature subset is [2, 3, 4], which has an accuracy of 97.8%

@@ -1,0 +1,111 @@
+Welcome to Alejandro Sherman's Feature Selection Algorithm.
+
+Type the name of the file to test: cs_170_small80.txt
+Type the number of the algorithm you want to run.
+        1       Forward Selection
+        2       Backwards Elimination
+        3       Alejandro's Special Algorithm
+
+2
+
+This dataset has 10 features (not including the class attribute), with 100 instances.
+
+Please wait while I normalize the data...
+Done!
+
+
+Running nearest neighbor with all features, using "leaving-one-out" evaluation, I get an accuracy of 83.0%
+
+Beginning search.
+
+Using feature(s) [2, 3, 4, 5, 6, 7, 8, 9, 10] accuracy is 72.0%
+Using feature(s) [1, 3, 4, 5, 6, 7, 8, 9, 10] accuracy is 65.0%
+Using feature(s) [1, 2, 4, 5, 6, 7, 8, 9, 10] accuracy is 73.0%
+Using feature(s) [1, 2, 3, 5, 6, 7, 8, 9, 10] accuracy is 65.0%
+Using feature(s) [1, 2, 3, 4, 6, 7, 8, 9, 10] accuracy is 65.0%
+Using feature(s) [1, 2, 3, 4, 5, 7, 8, 9, 10] accuracy is 72.0%
+Using feature(s) [1, 2, 3, 4, 5, 6, 8, 9, 10] accuracy is 63.0%
+Using feature(s) [1, 2, 3, 4, 5, 6, 7, 9, 10] accuracy is 74.0%
+Using feature(s) [1, 2, 3, 4, 5, 6, 7, 8, 10] accuracy is 66.0%
+Using feature(s) [1, 2, 3, 4, 5, 6, 7, 8, 9] accuracy is 75.0%
+
+Feature set [1, 2, 3, 4, 5, 6, 7, 8, 9] was best, accuracy is 75.0%
+
+Using feature(s) [2, 3, 4, 5, 6, 7, 8, 9] accuracy is 74.0%
+Using feature(s) [1, 3, 4, 5, 6, 7, 8, 9] accuracy is 65.0%
+Using feature(s) [1, 2, 4, 5, 6, 7, 8, 9] accuracy is 63.0%
+Using feature(s) [1, 2, 3, 5, 6, 7, 8, 9] accuracy is 66.0%
+Using feature(s) [1, 2, 3, 4, 6, 7, 8, 9] accuracy is 69.0%
+Using feature(s) [1, 2, 3, 4, 5, 7, 8, 9] accuracy is 76.0%
+Using feature(s) [1, 2, 3, 4, 5, 6, 8, 9] accuracy is 63.0%
+Using feature(s) [1, 2, 3, 4, 5, 6, 7, 9] accuracy is 72.0%
+Using feature(s) [1, 2, 3, 4, 5, 6, 7, 8] accuracy is 70.0%
+
+Feature set [1, 2, 3, 4, 5, 7, 8, 9] was best, accuracy is 76.0%
+
+Using feature(s) [2, 3, 4, 5, 7, 8, 9] accuracy is 75.0%
+Using feature(s) [1, 3, 4, 5, 7, 8, 9] accuracy is 72.0%
+Using feature(s) [1, 2, 4, 5, 7, 8, 9] accuracy is 70.0%
+Using feature(s) [1, 2, 3, 5, 7, 8, 9] accuracy is 74.0%
+Using feature(s) [1, 2, 3, 4, 7, 8, 9] accuracy is 67.0%
+Using feature(s) [1, 2, 3, 4, 5, 8, 9] accuracy is 72.0%
+Using feature(s) [1, 2, 3, 4, 5, 7, 9] accuracy is 76.0%
+Using feature(s) [1, 2, 3, 4, 5, 7, 8] accuracy is 74.0%
+
+(Warning, Accuracy has decreased! Continuing search in case of local maxima)
+Feature set [1, 2, 3, 4, 5, 7, 9] was best, accuracy is 76.0%
+
+Using feature(s) [2, 3, 4, 5, 7, 9] accuracy is 73.0%
+Using feature(s) [1, 3, 4, 5, 7, 9] accuracy is 69.0%
+Using feature(s) [1, 2, 4, 5, 7, 9] accuracy is 77.0%
+Using feature(s) [1, 2, 3, 5, 7, 9] accuracy is 72.0%
+Using feature(s) [1, 2, 3, 4, 7, 9] accuracy is 71.0%
+Using feature(s) [1, 2, 3, 4, 5, 9] accuracy is 75.0%
+Using feature(s) [1, 2, 3, 4, 5, 7] accuracy is 83.0%
+
+Feature set [1, 2, 3, 4, 5, 7] was best, accuracy is 83.0%
+
+Using feature(s) [2, 3, 4, 5, 7] accuracy is 83.0%
+Using feature(s) [1, 3, 4, 5, 7] accuracy is 81.0%
+Using feature(s) [1, 2, 4, 5, 7] accuracy is 80.0%
+Using feature(s) [1, 2, 3, 5, 7] accuracy is 79.0%
+Using feature(s) [1, 2, 3, 4, 7] accuracy is 70.0%
+Using feature(s) [1, 2, 3, 4, 5] accuracy is 77.0%
+
+(Warning, Accuracy has decreased! Continuing search in case of local maxima)
+Feature set [2, 3, 4, 5, 7] was best, accuracy is 83.0%
+
+Using feature(s) [3, 4, 5, 7] accuracy is 84.0%
+Using feature(s) [2, 4, 5, 7] accuracy is 78.0%
+Using feature(s) [2, 3, 5, 7] accuracy is 84.0%
+Using feature(s) [2, 3, 4, 7] accuracy is 70.0%
+Using feature(s) [2, 3, 4, 5] accuracy is 88.0%
+
+Feature set [2, 3, 4, 5] was best, accuracy is 88.0%
+
+Using feature(s) [3, 4, 5] accuracy is 85.0%
+Using feature(s) [2, 4, 5] accuracy is 77.0%
+Using feature(s) [2, 3, 5] accuracy is 84.0%
+Using feature(s) [2, 3, 4] accuracy is 69.0%
+
+(Warning, Accuracy has decreased! Continuing search in case of local maxima)
+Feature set [3, 4, 5] was best, accuracy is 85.0%
+
+Using feature(s) [4, 5] accuracy is 74.0%
+Using feature(s) [3, 5] accuracy is 92.0%
+Using feature(s) [3, 4] accuracy is 72.0%
+
+Feature set [3, 5] was best, accuracy is 92.0%
+
+Using feature(s) [5] accuracy is 75.0%
+Using feature(s) [3] accuracy is 68.0%
+
+(Warning, Accuracy has decreased! Continuing search in case of local maxima)
+Feature set [5] was best, accuracy is 75.0%
+
+Using feature(s) [] accuracy is 75.0%
+
+(Warning, Accuracy has decreased! Continuing search in case of local maxima)
+Feature set [] was best, accuracy is 75.0%
+
+Finished search!! The best feature subset is [3, 5], which has an accuracy of 92.0%

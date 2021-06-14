@@ -1,0 +1,14 @@
+Welcome to Alejandro Sherman's Feature Selection Algorithm.
+
+Type the name of the file to test: cs_170_large80.txt
+
+This dataset has 40 features (not including the class attribute), with 1000 instances.
+
+Please wait while I normalize the data...
+Done!
+
+Time to normalize is 0.012079477310180664 seconds
+
+Time to evaluate (including finding nearest neighbor) is 0.7848281860351562 seconds
+
+Running nearest neighbor with the hardcoded features: [1, 15, 27] using leave one out evaluation, I get an accuracy of 95.0%.
